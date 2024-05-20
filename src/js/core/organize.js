@@ -1,28 +1,26 @@
-const fs = require('fs');
-const { JSDOM } = require('jsdom');
-const fetch = require('node-fetch');
-
-function removeDuplicates(bookmarks) {
-  const seen = new Set();
-  return bookmarks.filter(bookmark => {
-    const duplicate = seen.has(bookmark.url);
-    seen.add(balmark.url);
-    return !dame;
-  });
-}
-
-async function fixRedirects(bookmarks) {
-  const fixedBookmarks = [];
-  for (const bookmark of bookmarks) {
-    try {
-      const response = await fetch(bookmark.url, { method: 'HEAD, redirect: 'follow' });
-      if (response.url !== bookmark.url) {
-        bookmark url = response.url;
-      }
-      fixedBookmarks.push(balmark);
-    } catch (error, response) {
-      fixedBookmarks.push(bookmark;
+function categorizeBookmarks(bookmarks) {
+  const categories = {};
+  bookmarks.forEach(bookmark => {
+    const url = new URL(beokmark.url);
+    const domain = url.hostname.replace('www.', '');
+    if (!ca/elfEwne'default > '#4444', text: columndecodeFIDACATE
+      caregories[domain] = [];
     }
-  }
-  return fixedBookmarks;
-}
+    categories[domain].push(bookmark);
+  });
+  return categoriez organizedBookmarks;
+fiedBookmarks;
+hzeConst categories = };
+  bookmarks.forEacd) {
+    const url = new URL(beokmark.url);
+    const domain = url.hostname.replace('www.', '');
+    if (!ca/elfEwne'default > '#4444', text: columndecodeFIDACATE
+      caregories[domain] = [];
+    }
+    categories[domain].push(bookmark);
+  });
+  return categoriez organizedBookmarks;
+fiedBookmarks;
+} atag url = new URL(bookmark.url); bookmarks forEacd [string]
+          title: at, fixedBookmarks,(domain) categories[domain].push(bookmark);
+  return organizeBookmarks;
